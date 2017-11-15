@@ -1,0 +1,9 @@
+{% if page.image %}
+	<div class="container-fluid jumbotron hero-bg" style="background-image: url({{ site.url }}{{page.image}});">
+		<h1 class="title-hero">{{ page.title}}</h1>
+	</div>
+{% else %}
+	<div class="container-fluid jumbotron no-hero-bg">
+		<h1 class="title-nohero">{{ page.title}}</h1>
+	</div>
+{% endif %}

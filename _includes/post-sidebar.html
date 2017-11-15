@@ -1,0 +1,10 @@
+<div class="post-meta">
+	<p>
+		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+		{% if page.author %}
+			{{ page.author }}
+		{% endif %}
+	</p>
+</div>
+<h3>Want to read more?</h3>
+<!--{% include pager.html %}-->

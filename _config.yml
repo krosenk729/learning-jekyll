@@ -1,0 +1,14 @@
+# Site wide configuration
+title:          "Making Stuff by Katherine"
+description:    "Katherine learns to use Jekyll."
+locale:         en_US
+url:            https://krosenk729.github.io
+baseurl:        ""
+
+# Jekyll build settings
+permalink:      /:categories/:title/
+markdown:       kramdown
+
+
+# Plugins
+plugins:

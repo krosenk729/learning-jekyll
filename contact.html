@@ -1,0 +1,14 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+hero_img: /assets/images/min-5.jpg
+contactreasons:
+- Saying Hi
+- Business Inquiry
+---
+<ul>
+	{% for reason in page.contactreasons %}
+		<li>{{ reason }}</li>
+	{% endfor %}
+</ul>
